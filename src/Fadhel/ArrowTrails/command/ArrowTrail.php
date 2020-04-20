@@ -57,7 +57,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
             }
             switch ($data) {
                 case 0:
-                    if ($player->hasPermission("angryvillager.particle")) {
+                    if ($player->hasPermission("arrowtrails.angryvillager")) {
                         $this->plugin->data[$player->getName()] = 1;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Angry Villager" . TextFormat::GREEN . ".");
                     } else {
@@ -65,7 +65,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 1:
-                    if ($player->hasPermission("heart.particle")) {
+                    if ($player->hasPermission("arrowtrails.heart")) {
                         $this->plugin->data[$player->getName()] = 2;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Heart" . TextFormat::GREEN . ".");
                     } else {
@@ -73,7 +73,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 2:
-                    if ($player->hasPermission("happyvillager.particle")) {
+                    if ($player->hasPermission("arrowtrails.happyvillager")) {
                         $this->plugin->data[$player->getName()] = 3;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Happy Villager" . TextFormat::GREEN . ".");
                     } else {
@@ -81,7 +81,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 3:
-                    if ($player->hasPermission("flame.particle")) {
+                    if ($player->hasPermission("arrowtrails.flame")) {
                         $this->plugin->data[$player->getName()] = 4;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Flame" . TextFormat::GREEN . ".");
                     } else {
@@ -89,7 +89,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 4:
-                    if ($player->hasPermission("lava.particle")) {
+                    if ($player->hasPermission("arrowtrails.lava")) {
                         $this->plugin->data[$player->getName()] = 5;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Lava" . TextFormat::GREEN . ".");
                     } else {
@@ -97,7 +97,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 5:
-                    if ($player->hasPermission("lavadrip.particle")) {
+                    if ($player->hasPermission("arrowtrails.lavadrip")) {
                         $this->plugin->data[$player->getName()] = 6;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Lava drip" . TextFormat::GREEN . ".");
                     } else {
@@ -105,7 +105,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 6:
-                    if ($player->hasPermission("waterdrip.particle")) {
+                    if ($player->hasPermission("arrowtrails.waterdrip")) {
                         $this->plugin->data[$player->getName()] = 7;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Water drip" . TextFormat::GREEN . ".");
                     } else {
@@ -113,7 +113,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                     }
                     break;
                 case 7:
-                    if ($player->hasPermission("enchantment.particle")) {
+                    if ($player->hasPermission("arrowtrails.enchantment")) {
                         $this->plugin->data[$player->getName()] = 8;
                         $player->sendMessage(TextFormat::GREEN . "You've changed your arrow particle to " . TextFormat::AQUA . "Enchantment" . TextFormat::GREEN . ".");
                     } else {
