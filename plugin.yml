@@ -1,7 +1,24 @@
 name: ArrowTrails
 main: Fadhel\ArrowTrails\Main
-version: 1.0.0
+version: 1.2.0
 api: 3.0.0
 author: Fadhel
-website: hexitmc.com
-description: Adds particles to the arrows!
+website: https://youtube.com/c/FadhelFS
+description: "Spawn particles to player's arrows if they have permissions" 
+permissions:
+  arrowtrails.angryvillager:
+    default: false
+  arrowtrails.heart:
+    default: false
+  arrowtrails.happyvillager:
+    default: false
+  arrowtrails.flame:
+    default: false
+  arrowtrails.lava:
+    default: false
+  arrowtrails.lavadrip:
+    default: false
+  arrowtrails.waterdrip:
+    default: false
+  arrowtrails.enchantment:
+    default: false
