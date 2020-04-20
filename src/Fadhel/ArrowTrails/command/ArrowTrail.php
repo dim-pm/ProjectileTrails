@@ -24,10 +24,11 @@ use Fadhel\ArrowTrails\Main;
 use Fadhel\ArrowTrails\utils\form\SimpleForm;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 
-class ArrowTrail extends Command
+class ArrowTrail extends Command implements PluginIdentifiableCommand
 {
     /**
      * @var Main
@@ -156,5 +157,10 @@ class ArrowTrail extends Command
             return;
         }
         $this->sendForm($sender);
+    }
+
+    public function getPlugin()
+    {
+        return $this->plugin;
     }
 }
