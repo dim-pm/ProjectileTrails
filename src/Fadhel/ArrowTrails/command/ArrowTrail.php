@@ -159,7 +159,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
         $this->sendForm($sender);
     }
 
-    public function getPlugin()
+    public function getPlugin(): Plugin
     {
         return $this->plugin;
     }
