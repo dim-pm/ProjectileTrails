@@ -1,7 +1,7 @@
 # ArrowTrails
 ArrowTrails: a plugin that spawns particles for player's arrows with permissions system.
 Found a bug? please make a new issue at https://github.com/Dim9999/ArrowTrails/issues/new
-<a href="https://poggit.pmmp.io/p/ArrowTrails"><img src="https://poggit.pmmp.io/shield.state/ArrowTrails"></a>
+[![HitCount](http://hits.dwyl.com/Dim999/ArrowTrails.svg)](http://hits.dwyl.com/Dim999/ArrowTrails)
 
 # Features
 - permissions for each particle
