@@ -7,5 +7,5 @@ projects:
     path: ""
     lint:
       phpstan: false
-    icon: Icon.png
+    icon: icon.png
 ...
