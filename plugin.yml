@@ -7,18 +7,18 @@ website: https://youtube.com/c/FadhelFS
 description: "Spawn particles to player's arrows if they have permissions" 
 permissions:
   arrowtrails.angryvillager:
-    default: false
+    default: op
   arrowtrails.heart:
-    default: false
+    default: op
   arrowtrails.happyvillager:
-    default: false
+    default: op
   arrowtrails.flame:
-    default: false
+    default: op
   arrowtrails.lava:
-    default: false
+    default: op
   arrowtrails.lavadrip:
-    default: false
+    default: op
   arrowtrails.waterdrip:
-    default: false
+    default: op
   arrowtrails.enchantment:
-    default: false
+    default: op
