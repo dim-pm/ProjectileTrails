@@ -1,5 +1,5 @@
 # ArrowTrails
-An open-source plugin for PocketMine-MP spawns particles to the arrows. [![Hits](http://hits.dwyl.com/Dim999/ArrowTrails.svg)](https://github.com/Dim999/ArrowTrails)
+An open-source plugin for PocketMine-MP spawns particles to the arrows. [![Hits](http://hits.dwyl.com/Dim999/ArrowTrails.svg)](https://github.com/Dim9999/ArrowTrails)
 
 ## Permissions
 - arrowtrails.angryvillager
