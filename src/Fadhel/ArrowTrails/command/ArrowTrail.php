@@ -124,10 +124,7 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
                 case 8:
                     $this->plugin->data[$player->getName()] = null;
                     $player->sendMessage(TextFormat::GREEN . "You've disabled your arrow particle.");
-                    break;
-                case 9:
-                    $player->sendMessage(TextFormat::AQUA . "ArrowTrails> " . TextFormat::GREEN . "This plugin was made by "  . TextFormat::AQUA . "Fadhel " . TextFormat::GREEN . "aka FADHEL GAMER or FadhelFS. This plugin is an open-source project, You can fork it and modify it, However you cannot change the author of the plugin or sell it.\nSubscribe to get more awesome plugins for PocketMine-MP at ". TextFormat::AQUA . "https://youtube.com/c/FadhelFS");
-            }
+                }
         });
         $form->setTitle("ArrowTrails");
         $form->setContent("Select your favorite particle:");
@@ -140,7 +137,6 @@ class ArrowTrail extends Command implements PluginIdentifiableCommand
         $form->addButton(TextFormat::AQUA . "Water drip");
         $form->addButton(TextFormat::BLACK . "Enchantment");
         $form->addButton(TextFormat::DARK_RED . "Disable");
-        $form->addButton(TextFormat::LIGHT_PURPLE . TextFormat::BOLD . "Plugin Credits");
         $form->addButton(TextFormat::RED . TextFormat::BOLD . "Exit");
         $player->sendForm($form);
     }
