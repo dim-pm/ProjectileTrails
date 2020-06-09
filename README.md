@@ -1,5 +1,5 @@
 # ProjectileTrails
-An open-source plugin for PocketMine-MP spawns particles to the arrows.
+An open-source plugin for PocketMine-MP spawns particles to the projectiles.
 
 ## Permissions
 - projectiletrails.angryvillager
