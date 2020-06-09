@@ -1,9 +1,9 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Dim9999/ArrowTrails
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Dim9999/ProjectileTrails
 build-by-default: true
 branches:
 - master
 projects:
-  ArrowTrails:
+  ProjectileTrails:
     path: ""
     icon: "icon.png" 
     lint:
