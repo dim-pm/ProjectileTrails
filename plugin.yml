@@ -1,24 +1,36 @@
-name: ArrowTrails
-main: Fadhel\ArrowTrails\Main
-version: 1.2.0
+---
+name: ProjectileTrails
+main: Fadhel\projectiletrails\Main
+version: 2.0.0
 api: 3.0.0
 author: Fadhel
-website: https://youtube.com/c/FadhelFS
-description: "Spawn particles to player's arrows if they have permissions" 
+website: https://github.com/DimBis
+description: "Spawn particles to player's projectiles if they have permissions"
 permissions:
-  arrowtrails.angryvillager:
+  projectiletrails.angryvillager:
     default: op
-  arrowtrails.heart:
+  projectiletrails.enchantment:
     default: op
-  arrowtrails.happyvillager:
+  projectiletrails.explode:
     default: op
-  arrowtrails.flame:
+  projectiletrails.heart:
     default: op
-  arrowtrails.lava:
+  projectiletrails.happyvillager:
     default: op
-  arrowtrails.lavadrip:
+  projectiletrails.flame:
     default: op
-  arrowtrails.waterdrip:
+  projectiletrails.lava:
     default: op
-  arrowtrails.enchantment:
+  projectiletrails.lavadrip:
     default: op
+  projectiletrails.portal:
+    default: op
+  projectiletrails.rainbowdust:
+    default: op
+  projectiletrails.smoke:
+    default: op
+  projectiletrails.water:
+    default: op
+  projectiletrails.waterdrip:
+    default: op
+...
