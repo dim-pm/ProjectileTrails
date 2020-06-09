@@ -1,6 +1,6 @@
 ---
 name: ProjectileTrails
-main: Fadhel\projectiletrails\Main
+main: Fadhel\ProjectileTrails\Main
 version: 2.0.0
 api: 3.0.0
 author: Fadhel
