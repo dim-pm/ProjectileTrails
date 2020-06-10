@@ -6,7 +6,7 @@ projects:
   ProjectileTrails:
     path: ""
     icon: "icon.png"
-    projectId: 7155
+    projectId: 6746
     lint:
       phpstan: false
 ...
