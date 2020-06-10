@@ -180,7 +180,7 @@ class Main extends PluginBase
             $stmt->bindValue(":particle", $particle);
             $stmt->bindValue(":player", strtolower($player->getName()));
             $stmt->execute();
-            $player->sendMessage($particle > 0 ? TextFormat::colorize(str_replace("{particle}", $this->particles[$particle], $this->getConfig()->get("change-message"))) : $this->getConfig()->get("disable-message"));
+            $player->sendMessage($particle > 0 ? TextFormat::colorize(str_replace("{particle}", $this->particles[$particle], $this->getConfig()->get("change-message"))) : TextFormat::colorize($this->getConfig()->get("disable-message")));
         } else {
             $player->sendMessage(TextFormat::colorize(str_replace("{particle}", $this->particles[$particle], $this->getConfig()->get("error-perms"))));
         }
