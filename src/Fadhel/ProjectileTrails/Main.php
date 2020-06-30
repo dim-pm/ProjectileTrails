@@ -81,6 +81,10 @@ class Main extends PluginBase
         }
     }
 
+    /**
+     * @param Player $player
+     * @param Entity $entity
+     */
     public function spawnParticle(Player $player, Entity $entity): void
     {
         switch ($this->getParticle($player->getName())) {
@@ -125,6 +129,11 @@ class Main extends PluginBase
         }
     }
 
+    /**
+     * @param Player $player
+     * @param int $particle
+     * @return string
+     */
     public function check(Player $player, int $particle): string
     {
         if ($player->hasPermission("projectiletrails." . $this->particles[$particle])) {
@@ -155,9 +164,9 @@ class Main extends PluginBase
 
     /**
      * @param string $player
-     * @return mixed
+     * @return string
      */
-    public function getParticle(string $player)
+    public function getParticle(string $player): string
     {
         $stmt = $this->database->prepare("SELECT particle FROM players WHERE player = :player");
         $stmt->bindValue(":player", strtolower($player));
