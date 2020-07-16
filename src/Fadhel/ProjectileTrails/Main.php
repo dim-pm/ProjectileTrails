@@ -39,7 +39,7 @@ use pocketmine\level\particle\DustParticle;
 use pocketmine\level\particle\EnchantmentTableParticle;
 use pocketmine\level\particle\FlameParticle;
 use pocketmine\level\particle\HappyVillagerParticle;
-use pocketmine\level\particle\HeartParticle;in
+use pocketmine\level\particle\HeartParticle;
 use pocketmine\level\particle\LavaDripParticle;
 use pocketmine\level\particle\LavaParticle;
 use pocketmine\level\particle\PortalParticle;
