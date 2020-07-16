@@ -21,15 +21,17 @@ declare(strict_types=1);
 namespace Fadhel\ProjectileTrails;
 
 use Fadhel\ProjectileTrails\command\Trails;
+
 use Fadhel\ProjectileTrails\entity\Arrow;
 use Fadhel\ProjectileTrails\entity\Egg;
 use Fadhel\ProjectileTrails\entity\Snowball;
 
-use pocketmine\entity\Entity;
-use pocketmine\level\particle\ExplodeParticle;
-use pocketmine\level\particle\WaterParticle;
-use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
+
+use pocketmine\Player;
+
+use pocketmine\entity\Entity;
+
 use pocketmine\utils\TextFormat;
 
 use pocketmine\level\particle\AngryVillagerParticle;
@@ -37,18 +39,24 @@ use pocketmine\level\particle\DustParticle;
 use pocketmine\level\particle\EnchantmentTableParticle;
 use pocketmine\level\particle\FlameParticle;
 use pocketmine\level\particle\HappyVillagerParticle;
-use pocketmine\level\particle\HeartParticle;
+use pocketmine\level\particle\HeartParticle;in
 use pocketmine\level\particle\LavaDripParticle;
 use pocketmine\level\particle\LavaParticle;
 use pocketmine\level\particle\PortalParticle;
 use pocketmine\level\particle\SmokeParticle;
 use pocketmine\level\particle\WaterDripParticle;
+use pocketmine\level\particle\ExplodeParticle;
+use pocketmine\level\particle\WaterParticle; 
 
 use SQLite3;
 
 class Main extends PluginBase
 {
+    /**
+     * @var SQLite3
+     */
     protected $database;
+
     private $particles =
         [
             1 => "Angry Villager", 2 => "Enchantment", 3 => "Explode",
