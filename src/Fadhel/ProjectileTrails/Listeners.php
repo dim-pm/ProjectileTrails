@@ -23,9 +23,11 @@ namespace Fadhel\ProjectileTrails;
 use Fadhel\ProjectileTrails\entity\Arrow;
 use Fadhel\ProjectileTrails\entity\Egg;
 use Fadhel\ProjectileTrails\entity\Snowball;
-use pocketmine\event\entity\ProjectileLaunchEvent;
-use pocketmine\event\Listener;
+
+use pocketmine\event\Listener; 
 use pocketmine\event\player\PlayerLoginEvent;
+use pocketmine\event\entity\ProjectileLaunchEvent;
+
 use pocketmine\Player;
 
 class Listeners implements Listener
