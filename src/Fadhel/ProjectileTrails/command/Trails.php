@@ -43,7 +43,7 @@ class Trails extends Command implements PluginIdentifiableCommand
     public function __construct(Main $plugin)
     {
         $this->plugin = $plugin;
-        parent::__construct("trails", "Select your projectile trails", "", ["pj"]);
+        parent::__construct("projectiletrails", "Select your projectile trails", "", ["pt"]);
     }
 
     /**
