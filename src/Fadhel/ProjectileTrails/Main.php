@@ -172,14 +172,14 @@ class Main extends PluginBase
 
     /**
      * @param string $player
-     * @return string
+     * @return int
      */
-    public function getParticle(string $player): string
+    public function getParticle(string $player): int
     {
         $stmt = $this->database->prepare("SELECT particle FROM players WHERE player = :player");
         $stmt->bindValue(":player", strtolower($player));
         $result = $stmt->execute();
-        return $result->fetchArray(SQLITE3_ASSOC)["particle"];
+        return (int)$result->fetchArray(SQLITE3_ASSOC)["particle"];
     }
 
     /**
