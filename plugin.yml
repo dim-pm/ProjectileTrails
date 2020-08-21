@@ -1,7 +1,7 @@
 ---
 name: ProjectileTrails
 main: Fadhel\ProjectileTrails\Main
-version: 2.1.0
+version: 2.2.0
 api: 3.0.0
 author: Fadhel
 website: https://github.com/DimBis
