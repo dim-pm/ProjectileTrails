@@ -1,12 +1,8 @@
 # ProjectileTrails
-An open-source plugin for PocketMine-MP spawns particles to the projectiles.
-
-## Features
-- permissions for each particle
-- UI form to toggle particles
-- stops spawning particles if the arrow is collided with a player or block 
+An open-source plugin for PocketMine-MP. The purpose of this plug-in is to create a cool cosmetics for your Minecraft: Bedrock Edition server by spawning particles to the projectiles.
 
 ### Permissions
+`
 - projectiletrails.angryvillager
 - projectiletrails.enchantment
 - projectiletrails.explode
@@ -20,6 +16,7 @@ An open-source plugin for PocketMine-MP spawns particles to the projectiles.
 - projectiletrails.smoke
 - projectiletrails.water
 - projectiletrails.waterdrip
+`
 
-### Video Example
+#### Video Example
 [![Youtube Video](https://img.youtube.com/vi/vm08ZH72v-g/0.jpg)](https://youtu.be/vm08ZH72v-g?t=60)
