@@ -1,14 +1,14 @@
 ---
-# The message when players change their particle. {particle} is the name if the particle
+# Message: particle change. {particle} is the name of the particle
 change-message: "&aYou've changed your projectile particle to the &b{particle}&a particle."
 
-# The message when players turn off their particle.
+# Message: turn off particles.
 disable-message: "&aYou've disabled your projectile particles."
 
-# No permission message. {particle} is the name if the particle
+# Error: no permission. {particle} is the name of the particle
 error-perms: "&cYou don't have permission to use the &f{particle}&c particle."
 
-# Called if the player selected particle matches the new selected particle {particle} is the name if the particle
+# Error: player's selected particle is the same as their original one. {particle} is the name of the particle
 error-same: "&cYour particle is already set to the &f{particle}&c particle."
 
 # Which projectiles you want to apply the particles to?
