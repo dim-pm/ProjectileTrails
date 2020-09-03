@@ -144,7 +144,7 @@ class Main extends PluginBase
      */
     public function check(Player $player, int $particle): string
     {
-        if ($player->hasPermission("projectiletrails." . $this->particles[$particle])) {
+        if ($player->hasPermission("projectiletrails." . strtolower(str_replace(" ", "", $this->particles[$particle])))) {
             $message = TextFormat::GREEN . $this->particles[$particle];
         } else {
             $message = TextFormat::RED . $this->particles[$particle];
@@ -192,7 +192,7 @@ class Main extends PluginBase
             $player->sendMessage(TextFormat::colorize(str_replace("{particle}", $this->particles[$particle], $this->getConfig()->get("error-same"))));
             return;
         }
-        if ($player->hasPermission("projectiletrails." . strtolower(str_replace(" ", "", $particle)))) {
+        if ($player->hasPermission("projectiletrails." . strtolower(str_replace(" ", "", $this->particles[$particle])))) {
             $stmt = $this->database->prepare("UPDATE players SET particle = :particle WHERE player = :player");
             $stmt->bindValue(":particle", $particle);
             $stmt->bindValue(":player", strtolower($player->getName()));
