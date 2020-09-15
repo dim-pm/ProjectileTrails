@@ -57,6 +57,8 @@ class Listeners implements Listener
 
     /**
      * @param ProjectileLaunchEvent $event
+     * @priority NORMAL
+     * @ignoreCancelled true
      */
     public function onLaunch(ProjectileLaunchEvent $event): void
     {
