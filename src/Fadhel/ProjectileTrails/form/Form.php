@@ -9,16 +9,16 @@ use pocketmine\Player;
 
 class Form implements IForm
 {
-    private $data;
-    private $callable;
-    private $content = "";
-    private $labelMap = [];
+    protected $data;
+    protected $callable;
+    protected $labelMap = [];
 
     public function __construct(?callable $callable)
     {
         $this->data["type"] = "form";
         $this->data["title"] = "";
-        $this->data["content"] = $this->content;
+        $this->data["content"] = "";
+        $this->data["buttons"] = [];
         $this->callable = $callable;
     }
 
