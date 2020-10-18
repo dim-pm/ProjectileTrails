@@ -57,7 +57,7 @@ class Main extends PluginBase
      */
     protected $database;
 
-    private $particles =
+    protected $particles =
         [
             1 => "Angry Villager", 2 => "Enchantment", 3 => "Explode",
             4 => "Happy Villager", 5 => "Heart", 6 => "Flame",
@@ -68,7 +68,6 @@ class Main extends PluginBase
 
     public function onEnable(): void
     {
-        $this->saveDefaultConfig();
         $this->getServer()->getCommandMap()->register("projectiletrails", new Trails($this));
         $this->getServer()->getPluginManager()->registerEvents(new Listeners($this), $this);
         $this->database = new SQLite3($this->getDataFolder() . "players.db");
@@ -76,7 +75,7 @@ class Main extends PluginBase
         $this->init();
     }
 
-    private function init(): void
+    protected function init(): void
     {
         if ($this->getConfig()->get("enable-arrow")) {
             Entity::registerEntity(Arrow::class, true);
