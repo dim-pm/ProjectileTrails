@@ -20,3 +20,6 @@ An open-source plugin for PocketMine-MP. The purpose of this plug-in is to creat
 
 #### Video Example
 [![Youtube Video](https://img.youtube.com/vi/vm08ZH72v-g/0.jpg)](https://youtu.be/vm08ZH72v-g?t=60)
+
+#### Contact
+contact@dimmy.xyz
