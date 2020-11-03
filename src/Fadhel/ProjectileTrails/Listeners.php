@@ -48,6 +48,8 @@ class Listeners implements Listener
 
     /**
      * @param PlayerLoginEvent $event
+     * @priority NORMAL
+     * @ignoreCancelled true
      */
     public function onLogin(PlayerLoginEvent $event): void
     {
